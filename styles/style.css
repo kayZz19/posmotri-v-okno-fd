@@ -14,13 +14,12 @@ html {
   align-items: center;
   margin: auto;
   color: #fff;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   background-color: #1b1919;
   inline-size: 1200px;
   block-size: 100%;
 }
-
 
 h1,
 h2,
@@ -136,10 +135,11 @@ ol {
   font-size: 18px;
   line-height: 21.6px;
   font-family: "Fira Sans Condensed", sans-serif;
+  font-weight: 400;
 }
 
 .title {
-  font-family: Oswald;
+  font-family: "Oswald", sans-serif;
   font-size: 75px;
   font-weight: 700;
   line-height: 70.5px;
@@ -163,6 +163,10 @@ ol {
   background-color: rgb(84, 84, 81, 1);
 }
 
+.content__card-link:active {
+  background-color: rgb(84, 84, 81, 1);
+}
+
 .content__card-link:hover {
   text-decoration: underline;
 }
@@ -176,7 +180,7 @@ ol {
 }
 
 .content__video-card-title {
-  font-family: Oswald;
+  font-family: "Oswald", sans-serif;
   font-weight: 700;
   font-size: 30px;
   text-align: left;
@@ -235,7 +239,7 @@ ol {
   border-top: 1px solid #ffffff;
   border-bottom: 1px solid#FFFFFF;
   background-color: transparent;
-  color: rgb(255, 255, 255, 0.7);
+  color: #ffffff;
   appearance: none;
   width: 225px;
   font-size: 18px;
@@ -286,6 +290,7 @@ ol {
   background-color: transparent;
   font-size: 18px;
   font-family: inherit;
+  font-weight: 700;
 }
 
 .search-form__submit-button {
